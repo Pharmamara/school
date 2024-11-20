@@ -10,7 +10,7 @@ export interface Person {
   name: string;
   age: number;
 }
-//производные
+
 export interface Teacher extends Person {
   subjectIds: number[];
   yearsOfExperience: number;
